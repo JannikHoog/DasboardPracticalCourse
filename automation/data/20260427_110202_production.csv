@@ -1,0 +1,2 @@
+__metadata,ID,ROW_ID,COMPANY_CODE,SIM_ROUND,SIM_STEP,SIM_DATE,SIM_PERIOD,SIM_ELAPSED_STEPS,MATERIAL_NUMBER,MATERIAL_DESCRIPTION,YIELD,UNIT
+"{'id': ""http://e05.bi.ucc.cit.tum.de/odata/935/Production('.1~1')"", 'uri': ""http://e05.bi.ucc.cit.tum.de/odata/935/Production('.1~1')"", 'type': 'ZCDS_ODATA_SIMULATION_SRV.Production'}",.1~1,1,CC,02,01,02/01,5,21,CC-F01,500g Nut Muesli,1.6E4,ST

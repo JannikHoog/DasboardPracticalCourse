@@ -1,0 +1,25 @@
+{
+  "team_code": "JJ",
+  "timestamp_utc": "2026-04-28T10:54:36+00:00",
+  "elapsed_seconds": 4.499,
+  "feeds_total": 16,
+  "feeds_fetched": 16,
+  "rows_by_feed": {
+    "purchase_orders": 47,
+    "production_orders": 31,
+    "current_inventory": 58,
+    "current_inventory_kpi": 48,
+    "production": 66,
+    "independent_requirements": 36,
+    "market": 633,
+    "sales": 675,
+    "company_valuation": 80,
+    "pricing_conditions": 24,
+    "stock_transfers": 6,
+    "marketing_expenses": 36,
+    "current_game_rules": 64,
+    "financial_postings": 850,
+    "inventory": 4698,
+    "current_suppliers_prices": 20
+  }
+}

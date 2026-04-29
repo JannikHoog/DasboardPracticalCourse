@@ -1,0 +1,26 @@
+# Local runtime config (may contain credentials)
+automation/config.json
+automation/config.local.json
+
+# Live cache (derived data)
+automation/data/live_cache/
+
+# Large exports / binaries
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# DuckDB lake (kept local by default; remove if you want to version it)
+*.duckdb
+*.duckdb.wal
+
+# Workbench fetcher
+workbench/fetcher.pid
+workbench/fetcher.log

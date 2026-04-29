@@ -1,0 +1,60 @@
+{
+  "team_code": "CC",
+  "execution_enabled": false,
+  "dry_run": true,
+  "confirm_live_actions": false,
+  "fiori": {
+    "base_url": "https://e05.bi.ucc.cit.tum.de/erp?sap-client=935&sap-language=EN#Shell-home",
+    "username": "",
+    "password": "",
+    "headless": false
+  },
+  "odata": {
+    "base_url": "https://e05.bi.ucc.cit.tum.de/odata/935",
+    "username": "",
+    "password": "",
+    "timeout_seconds": 30,
+    "verify_tls": true,
+    "entities": [
+      "BOM_Changes",
+      "Carbon_Emissions",
+      "Company_Valuation",
+      "Current_Game_Rules",
+      "Current_Inventory",
+      "Current_Inventory_KPI",
+      "Current_Pricing_Conditions",
+      "Current_Suppliers_Prices",
+      "Financial_Postings",
+      "Independent_Requirements",
+      "Inventory",
+      "Market",
+      "Marketing_Expenses",
+      "Production",
+      "Production_Orders",
+      "Purchase_Orders",
+      "Sales",
+      "Stock_Transfers"
+    ],
+    "feeds": {
+      "sales": "https://e05.bi.ucc.cit.tum.de/odata/935/Sales?$format=json",
+      "market": "https://e05.bi.ucc.cit.tum.de/odata/935/Market?$format=json",
+      "inventory": "https://e05.bi.ucc.cit.tum.de/odata/935/Inventory?$format=json",
+      "current_inventory": "https://e05.bi.ucc.cit.tum.de/odata/935/Current_Inventory?$format=json",
+      "current_inventory_kpi": "https://e05.bi.ucc.cit.tum.de/odata/935/Current_Inventory_KPI?$format=json",
+      "purchase_orders": "https://e05.bi.ucc.cit.tum.de/odata/935/Purchase_Orders?$format=json",
+      "production_orders": "https://e05.bi.ucc.cit.tum.de/odata/935/Production_Orders?$format=json",
+      "production": "https://e05.bi.ucc.cit.tum.de/odata/935/Production?$format=json",
+      "independent_requirements": "https://e05.bi.ucc.cit.tum.de/odata/935/Independent_Requirements?$format=json",
+      "financial_postings": "https://e05.bi.ucc.cit.tum.de/odata/935/Financial_Postings?$format=json",
+      "company_valuation": "https://e05.bi.ucc.cit.tum.de/odata/935/Company_Valuation?$format=json",
+      "pricing_conditions": "https://e05.bi.ucc.cit.tum.de/odata/935/Current_Pricing_Conditions?$format=json",
+      "current_suppliers_prices": "https://e05.bi.ucc.cit.tum.de/odata/935/Current_Suppliers_Prices?$format=json",
+      "marketing_expenses": "https://e05.bi.ucc.cit.tum.de/odata/935/Marketing_Expenses?$format=json",
+      "stock_transfers": "https://e05.bi.ucc.cit.tum.de/odata/935/Stock_Transfers?$format=json",
+      "current_game_rules": "https://e05.bi.ucc.cit.tum.de/odata/935/Current_Game_Rules?$format=json"
+    }
+  },
+  "output": {
+    "data_dir": "automation/data"
+  }
+}
