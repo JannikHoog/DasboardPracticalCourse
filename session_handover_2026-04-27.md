@@ -4,7 +4,7 @@ Purpose: Consolidated context file for other agents to continue work without red
 
 ## 1) Project / Team Context
 
-- Team: `CC`
+- Team: `JJ`
 - Game mode: ERPsim Manufacturing Introduction (SAP Fiori UI, browser-based)
 - Current working rule: read-only data collection first; no order execution by default.
 
